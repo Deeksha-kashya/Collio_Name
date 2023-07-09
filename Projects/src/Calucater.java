@@ -5,12 +5,18 @@ public class Calucater {
 		int sum = a+b;
 		 return sum;
 	}
+	
+	public int sub(int a, int b) {
+		int sum = a+b;
+		 return sum;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Calucater calucater= new Calucater();
 		calucater.add(55, 89);
+		calucater.sub(89, 6);
 
 	}
 
